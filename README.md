@@ -1,6 +1,6 @@
 # Chatroom
 Implements a local chatroom simulator accessible via the command line with a client program and a server program in which users may log in, message others, log out, etc. 
-Download chatroom.zip and extract server.py and client.py from it into the directory of your choosing. Open up a terminal for the server program and run it with `python server.py`, then open up at least two terminals and run client.py in each of them. The server process will display in the terminal whatever the users are doing / chatting. 
+Download chatroom.zip and extract server.py and client.py from it into the directory of your choosing. Open up a terminal for the server program and run it with `python server.py`, then open up at least two terminals and run client.py in each of them. The server process will display in the terminal whatever the users are doing / chatting. There is currently a limit of three on the number of users that may join a server to chat. This must be changed in the source code itself via the variable MAXCLIENTS in server.py. 
 
 Available commands include: 
 1. login UserID Password       
